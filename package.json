@@ -20,7 +20,6 @@
   "types": "build/index.d.ts",
   "scripts": {
     "build": "tsc -p tsconfig.json",
-    "postinstall": "run-s build",
     "clean": "trash build",
     "fix:prettier": "prettier \"src/**/*.ts\" --write",
     "fix:tslint": "tslint --fix --project .",
